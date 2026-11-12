@@ -1,6 +1,6 @@
-import { store, LIMITS } from './store.js';
-import { buildGrid, planRoute, accessCells, key } from './routing.js';
-import { startAR } from './ar.js';
+import { store, LIMITS } from 'store.js';
+import { buildGrid, planRoute, accessCells, key } from 'routing.js';
+import { startAR } from 'ar.js';
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
