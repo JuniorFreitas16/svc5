@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { CELL, buildGrid, planRoute } from './routing.js';
+import { CELL, buildGrid, planRoute } from 'routing.js';
 
 const LEVEL = 0.55;        // altura de cada nível (m)
 const TIER_LEVELS = 4;     // níveis por módulo; níveis acima empilham um novo módulo
